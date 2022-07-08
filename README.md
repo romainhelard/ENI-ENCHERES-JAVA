@@ -1,5 +1,8 @@
 # EN FORMATION : DEVELOPPEUR WEB & WEB MOBILE
-PROJET EN GROUPE - Site Encheres en ligne
+PROJET EN GROUPE (3) - Site Encheres en ligne
+<p><a href="https://github.com/romainhelard" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
+ <a href="https://github.com/DadaBzh" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a>
+ <a href="https://github.com/ImMappy" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" /></a></p>
 
 ______________
 # LOGICIELS/JDK/SERVEUR/BDD UTILISÉS : 
