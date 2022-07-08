@@ -2,8 +2,9 @@
 # PROJET EN GROUPE - Site Encheres en ligne
 
 ------------
-Logiciels Utilisés : Intellij Ultimate
+Logiciels Utilisés : Intellij Ultimate & Java 11
 SQL Server 2019 & Tomcat 9.0.64
+
 
 
 ------------
@@ -98,4 +99,4 @@ ALTER TABLE ARTICLES_VENDUS
     ADD CONSTRAINT ventes_utilisateur_fk FOREIGN KEY ( no_utilisateur )
         REFERENCES utilisateurs ( no_utilisateur )
 ON DELETE NO ACTION 
-    ON UPDATE no action 
+    ON UPDATE no action
