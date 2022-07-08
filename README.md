@@ -1,14 +1,14 @@
 # EN FORMATION : DEVELOPPEUR WEB & WEB MOBILE
-# PROJET EN GROUPE - Site Encheres en ligne
+PROJET EN GROUPE - Site Encheres en ligne
 
-------------
-Logiciels Utilisés : Intellij Ultimate & Java 11
-SQL Server 2019 & Tomcat 9.0.64
+______________
+# LOGICIELS/JDK/SERVEUR/BDD UTILISÉS : 
+- Intellij Ultimate & Java 11
+- SQL Server 2019 & Tomcat 9.0.64
 
-
-
-------------
-Script Création du Schéma BDD.
+______________
+SCRIPT BDD
+```sql
 
 CREATE TABLE CATEGORIES (
     no_categorie   INTEGER IDENTITY(1,1) NOT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE ARTICLES_VENDUS (
     no_article                    INTEGER IDENTITY(1,1) NOT NULL,
     nom_article                   VARCHAR(30) NOT NULL,
     description                   VARCHAR(300) NOT NULL,
-	date_debut_encheres           DATE NOT NULL,
+    date_debut_encheres           DATE NOT NULL,
     date_fin_encheres             DATE NOT NULL,
     prix_initial                  INTEGER,
     prix_vente                    INTEGER,
@@ -55,7 +55,7 @@ ALTER TABLE ARTICLES_VENDUS ADD constraint articles_vendus_pk PRIMARY KEY (no_ar
 
 
 CREATE TABLE RETRAITS (
-	no_article       INTEGER NOT NULL,
+    no_article       INTEGER NOT NULL,
     rue              VARCHAR(30) NOT NULL,
     code_postal      VARCHAR(15) NOT NULL,
     ville            VARCHAR(30) NOT NULL
